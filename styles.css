@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.full_page {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: black;
+}
+
+.inner_header {
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.title_container {
+    height: 100%;
+    display: table;
+    float: left;
+    font-size: 40px;
+}
+
+.title_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 200;
+}
+
+.title_container h1 span {
+    font-weight: 800;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    
+}
+
+.nav li a {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+    color: white;
+    font-size: 20px;     
+}
+
+.nav li a:hover {
+    color: goldenrod;
+}
+
+.picture img {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 75px;
+}
+
+.shows-container {
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: ;
+}
+
+.show-listing-time1, .show-listing-time2, .show-listing-time3, .show-listing-time4 {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.show-info {
+    text-align: left;
+}
+.title-of-show-info {
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.show-listing-time1  img {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: block;
+    flex-direction: column;
+}
+
+.show-listing-time1 button {
+    position: relative;
+    width: 150px;
+    min-height: 50px;
+    top: 20%;
+    color: black;
+    background-color: goldenrod;
+}
+
+.show-listing-time2  img {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: block;
+    flex-direction: column;
+}
+
+.show-listing-time2 button {
+    position: relative;
+    width: 150px;
+    min-height: 50px;
+    top: 20%;
+    color: black;
+    background-color: goldenrod;
+}
+
+.show-listing-time3  img {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: block;
+    flex-direction: column;
+}
+
+.show-listing-time3 button {
+    position: relative;
+    width: 150px;
+    min-height: 50px;
+    top: 20%;
+    color: black;
+    background-color: goldenrod;
+}
+
+.show-listing-time4  img {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: block;
+    flex-direction: column;
+}
+
+.show-listing-time4 button {
+    position: relative;
+    width: 150px;
+    min-height: 50px;
+    top: 20%;
+    color: black;
+    background-color: goldenrod;
+}
+
+.show-container-title {
+    text-align: left;
+    font-size: 24px;
+    border: 5px solid black;
+    margin: 10px 550px 0px;
+    width: 45%;
+    background-color: rgb(140, 132, 132);
+    color: white;
+    opacity: 35%;
+}
+
+.footer {
+    height: 400px;
+    min-width: none;
+    width: 100%;
+    column-width: 100px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.footer_img {
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+.info-footer-title {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.shows-footer-title {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.social-footer-title {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.social-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-footer a:hover {
+    color: goldenrod;
+}
+
+.info-footer {
+    float: left;
+}
